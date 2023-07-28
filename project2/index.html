@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/font.css">
+<link rel="stylesheet" href="css/media.css">
+<link rel="favicon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Play:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@terwanerik/scrolltrigger@1.0.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="script/main.js"></script>
+<script src="https://kit.fontawesome.com/5df97350ed.js" crossorigin="anonymous"></script>
+<title>옳고, 곧고, 다른 올고다 마루</title>
+</head>
+<body>
+<div class="wrapper">
+	<!-- <div class="scrolltop">
+		<a href="">
+			<span></span>
+			<p>TOP</p>
+		</a>
+	</div> -->
+	<header id="header">
+		<div class="header_inner">
+			<div class="logo"><a href="">logo</a></div>
+			<div class="header_right">
+				<div class="top">
+					<div class="head_quick">
+						<ul>
+							<li><a href="">Contact</a></li>
+							<li><a href="">Store</a></li>
+						</ul>
+					</div>
+					<div class="head_sns">
+						<ul>
+							<li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-google"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<nav id="gnb">
+					<div class="desktop_menu">
+						<ul>
+							<li>
+								<a href=""><span><b>올고다 소개</b></span></a>
+								<ul>
+									<li><a href="">옳고, 곧고, 다른</a></li>
+									<li><a href="">브랜드 스토리</a></li>
+									<li><a href="">올고다 BI</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>제품 소개</b></span></a>
+								<ul>
+									<li><a href="">올고다 마루</a></li>
+									<li><a href="">오브제</a></li>
+									<li><a href="">로카&로카 프리미엄</a></li>
+									<li><a href="">밸런스</a></li>
+									<li><a href="">시그니처</a></li>
+									<li><a href="">그루브</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>VR인테리어</b></span></a>
+								<ul>
+									<li><a href="">24평형</a></li>
+									<li><a href="">32평형</a></li>
+									<li><a href="">40평형</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>OL-care 서비스</b></span></a>
+								<ul>
+									<li><a href="">올케어 소개</a></li>
+									<li><a href="">서비스 신청</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>올고다 컨텐츠</b></span></a>
+								<ul>
+									<li><a href="">시공사례</a></li>
+									<li><a href="">Moment</a></li>
+									<li><a href="">Catalog</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>고객지원</b></span></a>
+								<ul>
+									<li><a href="">Contact us</a></li>
+									<li><a href="">FAQ</a></li>
+									<li><a href="">Q&A</a></li>
+									<li><a href="">전시장/대리점</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<nav id="gnb_mobile">
+					<div class="mobile_menu">
+						<ul>
+							<li>
+								<a href=""><span><b>올고다 소개</b></span></a>
+								<ul>
+									<li><a href="">옳고, 곧고, 다른</a></li>
+									<li><a href="">브랜드 스토리</a></li>
+									<li><a href="">올고다 BI</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>제품 소개</b></span></a>
+								<ul>
+									<li><a href="">올고다 마루</a></li>
+									<li><a href="">오브제</a></li>
+									<li><a href="">로카&로카 프리미엄</a></li>
+									<li><a href="">밸런스</a></li>
+									<li><a href="">시그니처</a></li>
+									<li><a href="">그루브</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>VR인테리어</b></span></a>
+								<ul>
+									<li><a href="">24평형</a></li>
+									<li><a href="">32평형</a></li>
+									<li><a href="">40평형</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>OL-care 서비스</b></span></a>
+								<ul>
+									<li><a href="">올케어 소개</a></li>
+									<li><a href="">서비스 신청</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>올고다 컨텐츠</b></span></a>
+								<ul>
+									<li><a href="">시공사례</a></li>
+									<li><a href="">Moment</a></li>
+									<li><a href="">Catalog</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href=""><span><b>고객지원</b></span></a>
+								<ul>
+									<li><a href="">Contact us</a></li>
+									<li><a href="">FAQ</a></li>
+									<li><a href="">Q&A</a></li>
+									<li><a href="">전시장/대리점</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<div class="close">
+					<a href="">
+						<em>
+							<i class="fa-solid fa-circle-xmark"></i>
+						</em>
+					</a>
+				</div>
+				<div class="main_manu">
+					<a href="">
+						<span class="line1"></span>
+						<span class="line2"></span>
+						<span class="line3"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="main_visual">
+		<div class="swiper_container main_visual_con">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="images/main_visual01.jpg" alt="visual1"></div>
+				<div class="swiper-slide"><img src="images/main_visual02.png" alt="visual2"></div>
+				<div class="swiper-slide"><img src="images/main_visual03.jpg" alt="visual3"></div>
+				<div class="swiper-slide"><img src="images/main_visual04.jpg" alt="visual4"></div>
+			</div>
+		</div>
+		<div class="main_control">
+			<ul>
+				<li><a href="">1</a></li>
+				<li><a href="">2</a></li>
+				<li><a href="">3</a></li>
+				<li><a href="">4</a></li>
+			</ul>
+		</div>
+		<div class="visual_text">
+			<div class="visual_text_box">
+				<div class="visual_text_inner">
+					<p class="main-txt1">
+						O L G O D A
+					</p>
+					<p class="main-txt2">
+						옳고, 곧고, 다른<br>
+						옳은 제품을 곧은 마음으로 다르게 전합니다.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section id="content">
+		<div id="productcon">
+			<div class="title"><h2><span>OLGODA</span> Product</h2></div>
+			<div class="content">
+				<ul>
+					<li>
+						<a href="">
+							<div class="img animated_img delay3">
+								<img src="images/con_product.jpg" alt="prod">
+							</div>
+							<div class="con1_text">
+								<strong>PRODUCT</strong>
+								<span>READ MORE<i class="fa-solid fa-arrow-right"></i></span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="img animated_img delay8">
+								<img src="images/con_interior.jpg" alt="Interior">
+							</div>
+							<div class="con1_text">
+								<strong>INTERIOR</strong>
+								<span>READ MORE<i class="fa-solid fa-arrow-right"></i></span>
+							</div>
+						</a>
+					</li>
+				</ul><!-- ... -->
+			</div>
+		</div>
+		<div id="quickcon">
+			<div class="quick_inner">
+				<ul>
+					<li>
+						<a href="">
+							<div class="quick_img animated_img delay5">
+								<img src="images/con_flooring.jpg" alt="design">
+								<div class="cover">
+									<em>
+										<i class="fa-solid fa-circle-plus"></i>
+									</em>
+									<p>READ MORE</p>
+								</div>
+							</div>
+							<div class="quick_text">
+								<strong>옳고, 곧고 ,다른</strong>
+								<p>OLGODA의 메세지를 만나보세요.</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="quick_img animated_img delay5">
+								<img src="images/con_about_m.jpg" alt="story">
+								<div class="cover">
+									<em>
+										<i class="fa-solid fa-circle-plus"></i>
+									</em>
+									<p>READ MORE</p>
+								</div>
+							</div>
+							<div class="quick_text">
+								<strong>Brand Story</strong>
+								<p>올고다 스토리를 확인해보세요.</p>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<div class="quick_img animated_img delay5">
+								<img src="images/con_care.jpg" alt="care">
+								<div class="cover">
+									<em>
+										<i class="fa-solid fa-circle-plus"></i>
+									</em>
+									<p>READ MORE</p>
+								</div>
+							</div>
+							<div class="quick_text">
+								<strong><!--OLGODA--> OL-care Service</strong>
+								<p>간편하고 손쉽게 AS를 문의하세요.</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="customecon">
+			<div id="moment">
+				<div class="moment_title">
+					<h3>Moment</h3>
+					<p><a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a></p>
+				</div>
+				<div class="moment_list">
+					<div class="sub_container sub_Swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<a href="">
+									<div class="moment_img">
+										<img src="images/con_moment01.png" alt="moment1">
+									</div>
+									<div class="moment_text">
+										<strong>[Video] 시작합니다. 바닥부터 - 올케어 서비스(15")</strong>
+										<p class="date">2021-04-05</p>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="">
+									<div class="moment_img">
+										<img src="images/con_moment02.png" alt="moment2">
+									</div>
+									<div class="moment_text">
+										<strong>[Video] 시작합니다. 바닥부터 - 브랜드 필름(15")</strong>
+										<p class="date">2021-04-06</p>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="">
+									<div class="moment_img">
+										<img src="images/con_moment03.png" alt="moment3">
+									</div>
+									<div class="moment_text">
+										<strong>[Video] 시작합니다. 바닥부터 - 올케어 서비스(30")</strong>
+										<p class="date">2021-04-05</p>
+									</div>
+								</a>
+							</div>
+							<div class="swiper-slide">
+								<a href="">
+									<div class="moment_img">
+										<img src="images/con_moment04.png" alt="moment4">
+									</div>
+									<div class="moment_text">
+										<strong>[Video] 시작합니다. 바닥부터 - 브랜드 필름(30")</strong>
+										<p class="date">2021-04-05</p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="faq">
+				<div class="faq_title">
+					<h3>FAQ</h3>
+					<p><a href="">READ MORE <i class="fa-solid fa-arrow-right"></i></a></p>
+				</div>
+				<div class="faq_list">
+					<ul>
+						<li>
+							<a href="">
+								<h5>[Support / 제품구매] OLGODA</h5>
+								<span class="qa_titlt">Q. 올고다 마루는 어디서 구매할 수 있나요?</span>
+								<p>A. Showroom에 있는 올고다 전시장, 대리점에서 구매하실 수 있습니다.
+									또는, 고객센터(1661-0999)로 연락해 주시면 올고다 마루를 구매할 수 있는 가까운 대리점을 안내해 드리겠습니다.</p>
+							</a>
+						</li>
+						<li>
+							<a href="">
+								<h5>[Support / 시공] OLGODA</h5>
+								<span class="qa_titlt">Q. 올고다 마루 시공시 유의사항이 있나요?</span>
+								<p>A. 올고다 마루는 기본적인 강마루 시공 방법과 동일합니다.
+								박스에 기재된 바닥면의 함수율, 평활도 등을 반드시 확인하신 후 시공하여야 합니다.
+								시공 시 압착 시공을 권장하며, 광폭 마루(폭 140mm 이상)의 경우 압착 시공을 원칙으로 합니다.
+								마루 접착용 본드를 사용하며, 바닥면과의 접착을 고려하여 적정량의 접착제를 도포하여 시공하여야 합니다.
+								현장 하자(미장면 불량, 함수율 초과, 바닥 갈라짐 등) 및 시공 하자의 경우 시공 업체에 문의 바랍니다.</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="footer_inner">
+			<div id="footer_top">
+				<div class="footer_left">
+					<strong>Contact</strong>
+					<h3><b>온라인 문의</b>를 통해 <br>간편하게<br class="tablet"> 문의해보세요</h3>
+					<p class="sub">입력해주신 정보는 저장되거나 공개되지 않으며 <br>담당자 이메일로 발송됩니다.</p>
+				</div>
+				<div class="footer_right">
+					<form>
+						<ul>
+							<li class="footer_contact animated">
+								<div class="footer_item">
+									<div class="tit">
+										이름<span>*</span>
+									</div>
+									<input type="text" name="name">
+								</div>
+							</li>
+							<li class="footer_contact animated">
+								<div class="footer_item">
+									<div class="tit">
+										기관 또는 기업<span>*</span>
+									</div>
+									<input type="text" name="company">
+								</div>
+							</li>
+							<li class="footer_contact animated">
+								<div class="footer_item">
+									<div class="tit">
+										이메일<span>*</span>
+									</div>
+									<input type="text" name="email">
+								</div>
+							</li>
+							<li class="footer_contact animated">
+								<div class="footer_item">
+									<div class="tit">
+										연락처<span>*</span>
+									</div>
+									<input type="text" name="number">
+								</div>
+							</li>
+							<li class="footer_contact animated">
+								<div class="footer_item">
+									<div class="tit">
+										문의사항<span>(1000자 이내)</span>
+									</div>
+									<textarea name="content" id cols="30" rows="10" maxlength="1000"></textarea>
+								</div>
+							</li>
+						</ul>
+						<div class="footer_contact_btn animated">
+							<div class="footer_item_btn">
+								<div class="check_box">
+									<input type="checkbox" name="online_Agree" id="online_Agree" class="check_box-btn">
+									<label for="online_Agree">
+										<span></span>
+										<a href="">개인정보처리방침</a>
+										에 동의합니다.
+									</label>
+								</div>
+								<button type="button">온라인 문의</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="footer_bottom">
+				<div class="area">
+					<div class="ft_left">
+						<div class="ft_logo"><img src="images/ft_logo.png" alt="ft_logo"></div>
+						<div class="ft_info">
+							<div class="hot-txt">
+								<p>
+									<span>Hot line</span> 1661-0999
+								</p>
+							</div>
+							<div class="info-txt">
+								<div class="info-txt1">
+									<p>Address : 40, sagimaggollo 9beongil, Seongnam, Jungwon, Gueonggi, Korea</p>  
+								</div>
+								<div class="info-txt2">
+									<p>CEO : Sangjun Han</p>
+									<p>Business Registration Number : 722-85-02459</p>
+								</div>
+							</div>
+							
+							<div class="copyright">
+								<p>Copyright 2021 Unid All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+					<div class="ft_right">
+						<dl>
+							<dt class="family_site"><a href="">Family Site</a></dt>
+							<dd>
+								<ul class="family_list">
+									<li><a href="">㈜유니드</a></li>
+									<li><a href="">유니드비티플러스</a></li>
+								</ul>
+							</dd>
+						</dl>
+						<div class="ft_menu">
+							<a href="">개인정보처리방침</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

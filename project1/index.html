@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="favicon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+	<script src="script/main.js"></script>
+	<title>TOCOBO</title>
+</head>
+<body>
+<div class="wrapper">
+	<div class="skip-nav">
+		<a href="#content">본문 바로가기</a>
+	</div>
+	<header id="header">
+		<div class="top">
+			<div class="top-inner">
+				<div id="tab">
+					<a href="">
+						<span class="open"><i class="fa-solid fa-bars"></i></span>
+					</a>
+				</div>
+				<div class="lang">
+					<a href="" class="lang-select">
+						한국어
+					</a>
+					<div class="list">
+						<ul>
+							<li class="active"><a href="">한국어</a></li>
+							<li><a href="">English</a></li>
+							<li><a href="">日本語</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="logo">
+					<a href=""><img src="images/logo.png" alt="w_logo"></a>
+				</div>
+				<div class="utils">
+					<ul>
+						<li><a href="">매장찾기</a></li>
+						<li><a href="">구매하기</a></li>
+						<li><a href=""><img src="images/ico_search.png" alt="search"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<nav id="gnb">
+				<ul>
+					<li>
+						<a href="">브랜드 빌리프</a>
+						<ul>
+							<li><a href="">브랜드 빌리프</a></li>
+							<li><a href="">브랜드 캠페인</a></li>
+							<li><a href="">브랜드 엠배서더</a></li>
+						</ul>
+					</li>
+					<li><a href="">베스트셀러</a></li>
+					<li>
+						<a href="">제품</a>
+						<ul>
+							<li><a href="">스킨케어</a></li>
+							<li><a href="">메이크업</a></li>
+							<li><a href="">남성</a></li>
+							<li><a href="">진설</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">TOCOBO 포스트</a>
+						<ul>
+							<li><a href="">TOCOBO 포스트</a></li>
+							<li><a href="">명작컬렉션</a></li>
+							<li><a href="">TOCOBO스타일</a></li>
+							<li><a href="">TOCOBO문화전</a></li>
+							<li><a href="">TOCOBO매거진</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">스파</a>
+						<ul>
+							<li><a href="">소개</a></li>
+							<li><a href="">스파 프로그램</a></li>
+							<li><a href="">예약</a></li>
+							<li><a href="">매장찾기</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="">플래그십 스토어</a>
+						<ul>
+							<li><a href="">TOCOBO 북촌</a></li>
+							<li><a href="">TOCOBO 도산</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+			<div class="gnb-bg"></div>
+		</div>
+	</header>
+	<div id="mo-menu">
+		<div class="m-top">
+			<div class="m-logo"><a href=""><img src="images/logo.png" alt="w_logo"></a></div>
+			<span class="close"><i class="fa-solid fa-xmark"></i></span>
+		</div>
+		<nav id="mgnb">
+			<ul>
+				<li>
+					<a href="">브랜드 빌리프</a>
+					<ul>
+						<li><a href="">브랜드 빌리프</a></li>
+						<li><a href="">브랜드 캠페인</a></li>
+						<li><a href="">브랜드 엠배서더</a></li>
+					</ul>
+				</li>
+				<li><a href="">베스트셀러</a></li>
+				<li>
+					<a href="">제품</a>
+					<ul>
+						<li><a href="">스킨케어</a></li>
+						<li><a href="">메이크업</a></li>
+						<li><a href="">남성</a></li>
+						<li><a href="">진설</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">TOCOBO 포스트</a>
+					<ul>
+						<li><a href="">TOCOBO 포스트</a></li>
+						<li><a href="">명작컬렉션</a></li>
+						<li><a href="">TOCOBO스타일</a></li>
+						<li><a href="">TOCOBO문화전</a></li>
+						<li><a href="">TOCOBO매거진</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">스파</a>
+					<ul>
+						<li><a href="">소개</a></li>
+						<li><a href="">스파 프로그램</a></li>
+						<li><a href="">예약</a></li>
+						<li><a href="">매장찾기</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="">플래그십 스토어</a>
+					<ul>
+						<li><a href="">TOCOBO 북촌</a></li>
+						<li><a href="">TOCOBO 도산</a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div id="slider">
+		<div class="main-slider main-slider-con">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slider1">
+					<img src="images/slider1.png" alt="visual1">
+					<div class="slider-txt">
+						<strong>
+							Vegan Sun Care<br>
+							Summer Festival
+						</strong>
+						<span>토코보 비건 선케어로 자극없이 자외선 완벽차단</span>
+					</div>
+				</div>
+				<div class="swiper-slide slider2">
+					<img src="images/slider2.png" alt="visual2">
+					<div class="slider-txt">
+						<strong>
+							Summer Skincare<br>
+							Vita Pore Toner
+						</strong>
+						<span>늘어진 모공을 탄탄하게 텐션 업💗 비타민 모공 수축 토너</span>
+					</div>
+				</div>
+				<div class="swiper-slide slider3">
+					<img src="images/slider3.png" alt="visual3">
+					<div class="slider-txt">
+						<strong>
+							Welcome TOCOBO<br>
+							exclusive benefit
+						</strong>
+						<span>토코보가 처음인 당신을 위한 다양한 혜택</span>
+					</div>
+				</div>
+				<div class="swiper-slide slider4">
+					<img src="images/slider4.png" alt="visual4">
+					<div class="slider-txt">
+						<strong>
+							Smooth And<br>
+							Moist Glazed Lip
+						</strong>
+						<span>각질 없는 촉촉탱글 입술👄 초고보습 비타민 립 케어✨</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-control"></div>
+		<div class="direction">
+			<a href="" class="left"><img src="images/pd_slide_arrow_prev.svg" alt="left"></a>
+			<a href="" class="right"><img src="images/pd_slide_arrow_next.svg" alt="right"></a>
+		</div>
+	</div>
+	<section id="content">
+		<div class="season">
+			<div class="title"><h3>TOCOBO 추천</h3></div>
+			<div class="contents clearfix">
+				<div class="recom-swiper conts-Swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season1.png" alt="season">
+								<div class="text">
+									<h3>비타 톤업 선 크림</h3>
+									<span>Vita Tone Up Sun Cream</span>
+									<span class="cost">21,200won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season2.png" alt="season">
+								<div class="text">
+									<h3>콜라겐 브라이트닝 아이 젤 크림</h3>
+									<span>Collagen Brightening Eye Gel Cream</span>
+									<span class="cost">20,000won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season3.png" alt="season">
+								<div class="text">
+									<h3>글로우&글래스 틴티드 립밤</h3>
+									<span>Glow&Glass Tinted Lip Balm</span>
+									<span class="cost">12,600won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season4.png" alt="season">
+								<div class="text">
+									<h3>파우더 크림 립밤</h3>
+									<span>Powder Cream Lip Balm</span>
+									<span class="cost">12,600won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season5.png" alt="season">
+								<div class="text">
+									<h3>비타민 너리싱 립밤</h3>
+									<span>Vitamin Nourishing Lip Balm</span>
+									<span class="cost">12,600won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season6.png" alt="season">
+								<div class="text">
+									<h3>바이오 워터리 선크림</h3>
+									<span>Bio Watery Sun Cream</span>
+									<span class="cost">21,600won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season7.png" alt="season">
+								<div class="text">
+									<h3>코튼 소프트 선 스틱</h3>
+									<span>Cotton Soft Sun Stick</span>
+									<span class="cost">18,700won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season8.png" alt="season">
+								<div class="text">
+									<h3>코코넛 클레이 클렌징 폼</h3>
+									<span>Coconut Clay Cleansing Foam</span>
+									<span class="cost">20,000won</span>
+								</div>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/season9.png" alt="season">
+								<div class="text">
+									<h3>아하 바하 레몬 토너</h3>
+									<span>AHA BHA Lemon Toner</span>
+									<span class="cost">25,000won</span>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<div class="best">
+			<div class="content">
+				<a href="">
+					<img src="images/best.png" alt="best">
+					<div class="text">
+						<h4>베스트셀러</h4>
+						<p>건강하게 빛나고 힘 있게 채우는<br>
+						TOCOBO의 시그니처 케어</p>
+						<span class="detail">자세히 보기</span>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="service">
+			<ul>
+				<li>
+					<a href="">
+						<div class="img">
+							<img src="images/cleansing.png" alt="packing">
+						</div>
+						<div class="text">
+								<h3>자극없이 촉촉하게 보습감만 남는 퍼펙트 클렌징</h3>
+								<span>자세히 보기</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<div class="img">
+							<img src="images/suncare.png" alt="store">
+						</div>
+						<div class="text">
+								<h3>365일 피부를 지켜주는 저자극 비건 선 케어</h3>
+								<span>자세히 보기</span>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="review">
+			<div class="title"><h3>#With baresiocos</h3></div>
+			<div class="content">
+				<div class="re-swiper review-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review.jpg" alt="review">
+								<div class="text">
+									<p>"피부가 예민한 편인데 트러블 없이 잘 맞아요"</p>
+									<span class="report">
+										스킨-세럼-아이크림-로션-크림 식으로 스킨케어 하는데 
+										그래도 건조해서 알아보다가 구입하게 됐어요~ 
+										에센스 하나 추가했을 뿐인데 하루종일 얼굴에 수분감이 다르네요!
+									</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review2.jpg" alt="reivew2">
+								<div class="text">
+									<p>@vi0424ola__</p>
+									<span class="report">
+										톤업크림 처음쓰고 이거머지? 다밀리는데?? 라고 
+										생각했는데 사용량을 줄이니까 얇게 잘먹고 
+										프라이머 때문에 피부 매끈,뽀송,뽀샤시 완벽함. 
+										추가구성품 10mm 진짜 만족하구요.
+									</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review3.jpg" alt="review3">
+								<div class="text">
+									<p>@babooyam</p>
+									<span class="report">
+										톤업크림 먼저 사용했는데 발림성은 잘 발려서 좋아요~ 
+										막 엄청 화사해지는 것 보단 좋습니다. 
+										선스틱은 돌렸을 때 막 돌아가는 것 보다 탁 걸리는 느낌이 좋아요.</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review4.jpg" alt="review4">
+								<div class="text">
+									<p>@zsoozz***</p>
+									<span class="report">
+										벌써 스틱은 두번째 사용이네요~ 
+										바르면 백탁현상이 없고 밀리는것도 없고 보송하니
+										그렇다고 건조한 느낌이 있는건 아니라서 너무. 좋아요
+									</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review5.jpg" alt="review5">
+								<div class="text">
+									<p>@alohanimo_</p>
+									<span class="report">
+										샘플 써보고 냄새가 너무 좋아서 주문했는데 
+										모공 효과는 아직 모르겠지만 촉촉하고 
+										흡수도 잘되고 좋아요!</span>
+									</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review6.jpg" alt="review6">
+								<div class="text">
+									<p>@ddoyeon2_e</p>
+									<span class="report">
+										미니 사이즈지만 먼저 처음써보기에 
+										양 넉넉하고 듀오로 두종류 다 써볼수있어서 좋네용👍 
+										사이즈 휴대용으로도 찰떡!
+									</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<div class="re-img">
+									<img src="images/review7.jpg" alt="review7">
+								</div>
+								<div class="text">
+									<p>@iamcorn_</p>
+									<span class="report">
+										화장을 원래 안하고 다니는데 입술색이 
+										너무 없어보여서 구매했습니당 생얼에 바르니 
+										너무 진하지도 않고 좋네요ㅎㅎ</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="">
+								<img src="images/review8.jpg" alt="review8">
+								<div class="text">
+									<p>@juhee_honggg</p>
+									<span class="report">
+										선케어가 필수인 계절!
+										▪️수분 세럼을 바른듯 가볍고 촉촉한 #바이오워터리선크림
+										▪️부드럽고 촉촉한 밀착 톤업 #비타톤업선크림
+										▪️보습감은 그대로, 뽀송한 마무리 #코튼소프트선스틱</span>
+								</div>
+								<span><i class="fa-solid fa-bag-shopping"></i></span>
+							</a>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="top">
+			<div class="top-inner">
+				<div class="list">
+					<ul>
+						<li><a href="">회사소개</a></li>
+						<li><a href="">서비스이용약관</a></li>
+						<li><a href="">UGC이용약관</a></li>
+						<li><a href=""><span>개인정보처리방침</span></a></li>
+						<li><a href="">영상정보처리방침</a></li>
+						<li><a href="">사이트맵</a></li>
+						<li><a href="">로그인</a></li>
+					</ul>
+				</div>
+				<div class="sns">
+					<ul>
+						<li class="wab"><a href=""><img src="images/web.png" alt="web"></a></li>
+						<li><a href=""><img src="images/facebook.png" alt="facebook"></a></li>
+						<li><a href=""><img src="images/instagram.png" alt="instagram"></a></li>
+						<li><a href=""><img src="images/youtube.png" alt="youtube"></a></li>
+						<li><a href=""><img src="images/kakao.png" alt="kakao"></a></li>
+					</ul>
+				</div>	
+			</div>
+			
+		</div>
+		<div class="copyright">
+			<p>
+				주식회사 픽톤  대표 : 이병훈 주소 : 03966 서울특별시 마포구 월드컵북로15길 45 (성산동)<br>
+				사업자등록번호 : 196-81-02410 [사업자정보확인] 통신판매업신고: 제2021-서울마포-2994호 개인정보보호책임자 : 안주영 <br>
+				TEL : 02-6352-2410  E-MAIL : help@thepicton.com 수출문의 : 해외영업팀 sales1@thepicton.com<br>
+				COPYRIGHT© 2021 TOCOBO. ALL RIGHT RESERVED.
+			</p>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

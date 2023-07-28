@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1440px) {
+	#header .logo a {
+		width: 15vw;
+		height: 3vw;
+	}
+	#header .top{
+		padding-right: 4em;
+	}
+	#header .header_inner {
+		padding-left: 4em;
+	}
+	#productcon,
+	#quickcon .quick_inner,
+	#customecon,
+	#footer .footer_inner{
+		padding-left: 30px;
+		padding-right:30px;
+	}
+	html{
+		font-size: 90%;
+	}
+}
+@media only screen and (max-width: 1020px) {
+	html{
+		font-size: 75%;
+	}
+	#header{
+		height: 80px;
+	}
+	#header .top,
+	#gnb{
+		display: none;
+	}
+	#header .header_inner {
+		height: 100%;
+		align-items: center;
+		padding-left: 30px;
+	}
+	#header .logo{
+		height: 100%;
+		width: 180px;
+	}
+	#header .logo::after {
+		display: none;
+	}
+	#header .logo a {
+		width: 143px;
+		height: 30px;
+	}
+	#header .header_right .main_manu{
+		top: 50%;
+		right: 30px;
+		transform: translateY(-50%);
+		display: block;
+	}
+	#customecon{
+		flex-wrap: wrap;
+	}
+	#moment,
+	#faq{
+		width: 100%;
+		padding:0 30px;
+	}
+	#faq{
+		margin-top: 50px;
+	}
+	#footer_top,
+	#footer_bottom .area{
+		flex-wrap: wrap;
+	}
+	#footer_top .footer_left,
+	#footer_top .footer_right,
+	#footer_bottom .ft_left,
+	#footer_bottom .ft_right{
+		width: 100%;
+		align-items: center;
+		text-align: center;
+		padding: 0 20px;
+	}
+	#footer_top .footer_left br{
+		display: none;
+	}
+	#footer_top .footer_left h3 br.tablet{
+		display: block;
+	}
+	#footer_top .footer_right{
+		margin-top: 30px;
+	}
+	#footer_top .footer_right ul .footer_contact .tit{
+		line-height: 2.5;
+	} 
+	#footer_top .footer_right ul .footer_contact:last-child .tit{
+		text-align: left;
+	}
+	#footer_bottom .ft_left{
+		justify-content: center;
+	}
+	#footer_bottom .ft_left .ft_logo{
+		display: none;
+	}
+	#footer_bottom .ft_info{
+		margin: 0;
+	}
+	#footer_bottom .ft_right{
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width: 800px){
+	html{
+		font-size: 62.5%;
+	}
+	#header .header_right .main_manu{
+		right: 30px;
+	}
+	#productcon .content ul{
+		flex-wrap: wrap;
+	}
+	#productcon .content li{
+		width: 100%;
+		margin-top:30px;
+	}
+	#moment .moment_title,
+	#faq .faq_title{
+		display: flex;
+		text-align: center;
+		justify-content: center;
+	}
+	#footer_top .footer_right ul .footer_contact .tit{
+		line-height: 2; 
+	}
+}
+
+/* kayframes */
+@keyframes cmImgAni {
+    0% {transform:translateX(-101%);}
+    50% {transform:translateX(0);}
+    100% {transform:translateX(101%);}
+}
+@keyframes cmImgOpa {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    51% {opacity:1;}
+    100% {opacity:1;}
+}
+@keyframes AniLeft {
+    0% {transform:translateX(-101%);}
+    50% {transform:translateX(0);}
+    100% {transform:translateX(101%);}
+}
+@keyframes AniOpa {
+    0% {opacity:0;}
+    50% {opacity:0;}
+    51% {opacity:1;}
+    100% {opacity:1;}
+}
