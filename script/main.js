@@ -127,8 +127,6 @@ window.addEventListener("load", function(){
 	let probg=home.firstElementChild.children;
 
 	function backgroundAniamtion(n){
-
-		console.log(n);
 		for(let i=0; i<probg.length; i++){
 			if(i === n){
 				probg[i].classList.add("active");
