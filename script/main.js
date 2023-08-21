@@ -174,35 +174,35 @@ window.addEventListener("load", function(){
 			client:"Client. W Concept",
 			maintxt: "W Concept 스토어 역할에 충실할 수 있는 케이스 스터디를 제작하였습니다.",
 			detail: "",
-			link: "./casestudy1/index.html"
+			link: "https://hyesun1018.github.io/portfolio/casestudy1/index.html"
 		},
 		{
 			title:"Ecc plus",
 			client:"Client. YBM ECC",
 			maintxt : "Ecc plus의 학습 서비스인 브랜드 역할에 충실할 수 있는 케이스 스터디를 제작하였습니다.",
 			detail: "",
-			link: "./casestudy2/index.html"
+			link: "https://hyesun1018.github.io/portfolio/casestudy2/index.html"
 		},
 		{
 			title:"TOCOBO <br> 웹사이트 리뉴얼",
 			client:"Client. TOCOBO",
 			maintxt : "고객의 라이프 스타일에 맞는 다양한 정보와 제품을 제공하는 플랫폼으로 리뉴얼 오픈하였습니다.",
-			detail: "./project1/project1_detail/index.html",
-			link: "./project1/index.html"
+			detail: "https://hyesun1018.github.io/portfolio/project1/project1_detail/index.html",
+			link: "https://hyesun1018.github.io/portfolio/project1/index.html"
 		},
 		{
 			title:"OLGODA <br> 웹사이트 리뉴얼",
 			client:"Client. OLGODA",
 			maintxt : "올고다(Olgoda)의 핵심기술에 대한 비주얼 이미지와 설명을 중심으로 리뉴얼을 진행하였습니다.",
-			detail: "./project2/project2_detail/index.html",
-			link: "./project2/index.html"
+			detail: "https://hyesun1018.github.io/portfolio/project2/project2_detail/index.html",
+			link: "https://hyesun1018.github.io/portfolio/project2/index.html"
 		},
 		{
 			title:"GIOINFRA <br> 웹사이트 리뉴얼",
 			client:"Client. GIOINFRA",
 			maintxt : "스크롤하여 전체적인 브랜드의 홍보 컨텐츠를 확인할 수 있도록 구성하였습니다. 사용자의 편의를 위해 매장정보와 메뉴를 직관적으로 GNB에 노출하여 빠른 메뉴 이동이 가능하도록 UI를 개선하였고, 각각의 페이지에서 연계된 페이지로의 이동이 유연하도록 구성하였습니다.",
-			detail: "./project3/project3_detail/index.html",
-			link: "./project3/index.html"
+			etail: "https://hyesun1018.github.io/portfolio/project3/project3_detail/index.html",
+			link: "https://hyesun1018.github.io/portfolio/project3/index.html"
 		}
 	];
 	
